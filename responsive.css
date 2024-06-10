@@ -1,0 +1,164 @@
+@media (max-width: 744px) {
+  .text-box h1 {
+    font-size: 40px;
+  }
+
+  .school-nm {
+    visibility: hidden;
+  }
+
+  .sub-header h1 {
+    font-size: 24px;
+  }
+
+  .about-col h1 {
+    font-size: 29px;
+    text-decoration: underline;
+  }
+
+  .about-col img {
+    margin-bottom: 10000px;
+  }
+
+  .school-col {
+    flex-basis: 25%;
+    background: #26c0c533;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 2px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    height: auto;
+    display: flex;
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: 6000;
+    margin: 10px 0;
+  }
+  .school-col:hover {
+    box-shadow: 0 0 23px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .layer:hover {
+    background: rgba(226, 0, 0, 0.7);
+    height: 100%;
+  }
+
+  .boxspace {
+    resize: none;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .table {
+    background: #cacfd3;
+    width: 1px;
+    overflow: scroll;
+  }
+
+  .v-stretch {
+    grid-row: span 1;
+  }
+
+  .h-stretch {
+    grid-column: span 1;
+  }
+
+  .big-stretch {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .container .popup-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+  }
+  
+  .container .popup-image span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .container .popup-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    object-fit: cover;
+    width: 100%;
+    height: 20vh;
+  }
+
+  .footer-col {
+    width: 25%;
+    padding: 0 15px;
+  }
+  .footer-col h4 {
+    margin-top: 35px;
+    width: 170px;
+  }
+
+  .footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+  }
+
+  .tags h5 {
+    text-align: center;
+    background: #da3333;
+    height: 5vh;
+    margin-bottom: 0;
+    font-size: 12px;
+    padding: 7px;
+    color: rgb(252, 246, 246);
+    font-weight: 700;
+  }
+
+  .contact-inputs {
+    width: 53vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container .popup-image img {
+    width: 95%;
+  }
+
+  .about-col img {
+    margin-bottom: 100px;
+  }
+}
